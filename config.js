@@ -21,15 +21,15 @@ global.APIKeys = {
 }
 ////////////////////////////////////////////////////|:|             OWNER DETAILS             |:|//////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-global.session = process.env.SESSION_ID || 'eVpNZXBlMjc=',
-global.ownername = process.env.OWNER_NAME === undefined ? "MADVECNA" : process.env.OWNER_NAME
+global.session = process.env.SESSION_ID || 'U1h1ZUtwaTM=',
+global.ownername = process.env.OWNER_NAME === undefined ? "MADVECNAa" : process.env.OWNER_NAME
 let fake = process.env.OWNER_NUMBER === undefined ? '94763239193' : process.env.OWNER_NUMBER
 global.owner = [`${fake}`]
 global.ownernumber = [`${fake}`]
 global.premium = [`${fake}`]
 global.anticall = process.env.ANTICALL === undefined ? 'false' : process.env.ANTICALL
 global.packname = process.env.PACK_NAME === undefined ? 'Queen-MD' : process.env.PACK_NAME
-global.author = process.env.STICKER_AUTHOR_NAME === undefined ? 'MADVECNAA' : process.env.STICKER_AUTHOR_NAME
+global.author = process.env.STICKER_AUTHOR_NAME === undefined ? 'MADVECNAAA' : process.env.STICKER_AUTHOR_NAME
 global.pmblock = process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK
 global.chatbot_pm = process.env.PM_CHATBOT === undefined ? 'false' : process.env.PM_CHATBOT
 global.chatbot_group = process.env.GROUP_CHATBOT === undefined ? 'true' : process.env.GROUP_CHATBOT
